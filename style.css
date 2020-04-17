@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ebe4c0;
+  color: #332b08;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  min-height: 80px;
+  padding: 0px 30px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ebe4c0;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+.logo {
+  width: 70vw;
+}
+
+@media (max-width: 650px) {
+  .logo {
+    margin-top: 15px;
+    width: 100%;
+    position: relative;
+  }
+}
+
+#header-img {
+  width: 100%;
+  height: 100%;
+  max-width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+}
+
+@media (max-width: 650px) {
+  nav {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+  nav li {
+    padding-bottom: 5px;
+  }
+}
+
+@media (max-width: 650px) {
+  .logo > img {
+    margin: 0 auto;
+  }
+}
+
+ul {
+  width: 25vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media (max-width: 650px) {
+  nav > ul {
+    flex-direction: column;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #332b08;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 650px) {
+  #container {
+    margin-top: 150px;
+  }
+}
+
+#about {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 120px;
+}
+
+#video {
+  padding: 50px;
+}
+
+.images {
+  width: 400px;
+  padding: 20px;
+}
+
+#pictures {
+  display: flex;
+  justify-content: center;
+}
+
+#email {
+  max-width: 300px;
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#submit {
+  padding: 1rem 2rem;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 300px;
+  background-color: #f05f44;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: 60px;
+  outline: none;
+  border: none;
+}
+
+#submit:hover {
+  background-color: #ee4b08;
+}
